@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    padding: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    margin-bottom: 20px;
+}
+
+.cabecalho ul {
+    list-style: none;
+}
+
+.cabecalho li {
+    display: inline;
+    margin: 15px;
+}
+
+.cabecalho a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cabecalho a:hover {
+    text-decoration: underline;
+}
+
+
+/* INÍCIO */
+
+.conteudo {
+    padding: 100px 20px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.conteudo h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.conteudo p {
+    font-size: 20px;
+}
+
+
+/* BOTÃO */
+
+.botao {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: darkred;
+}
+
+
+/* ALUGUEL */
+
+.aluguel {
+    padding: 70px 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.aluguel h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+/* VENDA */
+
+.Venda {
+    padding: 70px 30px;
+    background-color: #eeeeee;
+    color: black;
+    text-align: center;
+}
+
+.Venda h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+/* IMÓVEIS */
+
+.imoveis {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+/* CARD DO IMÓVEL */
+
+.imovel {
+    background-color: white;
+    color: black;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px gray;
+}
+
+.imovel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.imovel h3 {
+    font-size: 22px;
+    margin: 15px;
+}
+
+.imovel p {
+    margin: 15px;
+}
+
+.imovel h4 {
+    color: red;
+    font-size: 20px;
+    margin: 15px;
+}
+
+
+/* CONTATO */
+
+.contato {
+    background-color: #333333;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.contato p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+/* RODAPÉ */
+
+.rodape {
+    background-color: red;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
